@@ -16,10 +16,10 @@
   
 //   export { login };
 
-
+// https://google-authentification-be.onrender.com
 
 const login = async (code) => {
-    return fetch('/api/auth/google', {
+    return fetch('https://google-authentification-be.onrender.com/api/auth/google', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
